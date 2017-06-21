@@ -1,0 +1,16 @@
+
+<template name="agenda_item">
+  <div class="panel panel-default panel-transparent menu{{this.day}}">
+    <div class="panel-heading">
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{this._id.toHexString}}">
+        <h4 class="panel-title topic-name">
+          {{this.topic}}
+        </h4>
+      </a>
+      <span class="topic-timing"> {{this.date}} </span>
+    </div>
+    <div id="collapse{{this._id.toHexString}}" class="panel-collapse collapse">
+      <div class="panel-body topic-description">{{this.description}}</div>
+    </div>
+  </div>
+</template>

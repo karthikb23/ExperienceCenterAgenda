@@ -1,0 +1,9 @@
+//import '../imports/api/collections.js';
+
+import { Mongo } from 'meteor/mongo';
+
+export const Visits = new Mongo.Collection('visits');
+export const Agenda = new Mongo.Collection('agenda');
+export const Customers = new Mongo.Collection('customers');
+
+console.log("Created collections");

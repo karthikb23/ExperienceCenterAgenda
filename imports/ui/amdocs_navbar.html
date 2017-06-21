@@ -1,0 +1,39 @@
+<template name="amdocs_navbar">
+  <nav class="navbar navbar-inverse navbar-toggleable-md">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle btn btn-info btn-lg" data-toggle="collapse" data-target="#doxNavbar">
+          <!--<span class="icon-menuPink"></span>-->
+          <div class="app_menu_button icon-menuPink app_button_hamburger"></div>
+          <!--
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          -->
+        </button>
+        <a class="navbar-left" href="/"><img class="mybrand" src="amdocswhite.svg"></a>
+      </div>
+
+      <div id="doxNavbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active nav-item" id="navbarHome">
+            <a href="/">Home</a>
+          </li>
+          <li class="nav-item" id="navbarAgenda">
+            <a href="./agenda.html">Agenda</a>
+          </li>
+          <li class="nav-item" id="navbarPresentations">
+            <a href="#">Presentations</a>
+          </li>
+          <li class="nav-item" id="navbarSpeakers">
+            <a href="#">Speakers</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>

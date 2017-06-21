@@ -1,0 +1,171 @@
+/* CSS declarations go here */
+
+.jumbotron {
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(0, 0, 0, 0);
+}
+
+.topic-timing {
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.topic-name {
+  color: #FFF;
+  font-weight: bold;
+}
+
+.topic-description {
+  color: #FFF;
+  font-weight: bold;
+}
+
+.panel-transparent {
+  background: none;
+}
+
+.panel-transparent .panel-heading {
+  background: rgba(122, 130, 136, 0.2);
+}
+
+.panel-transparent .panel-body {
+  background: rgba(46, 51, 56, 0.2);
+}
+
+button.app_button.app_button_stroke {
+  width: 128px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #FFF;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-left: 1px solid #ffa402;
+  border-right: 1px solid #ff279c;
+  box-sizing: border-box;
+  background-position: 0 0,0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  background-image: linear-gradient(to right,#ffa402,#ff5661,#ff279c),linear-gradient(to right,#ffa402,#ff5661,#ff279c);
+}
+
+button.app_button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+    padding: 0;
+    transition: background-color .2s ease-in-out;
+    -webkit-appearance: none;
+}
+
+.mybrand {
+  vertical-align: top;
+  width: 128px;
+  height: 50px;
+  margin-left:5px;
+  margin-right:30px;
+}
+
+.text_normal {
+    font-weight: 500;
+}
+
+.text_white {
+    color: #FFF;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_xls {
+    font-size: 2em;
+}
+
+.ls_md {
+    letter-spacing: 2px;
+}
+
+span.app_content_sep.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.app_content_sep {
+    height: 4px;
+    background: linear-gradient(to right,#ffa402,#ff5661,#ff279c);
+    width: 32px;
+    display: block;
+}
+
+.mb_xl, .mb_xxl {
+    margin-bottom: 24px;
+}
+
+.mt_xl, .mt_xxl {
+    margin-top: 24px;
+}
+
+body {
+  background-color: black;
+}
+
+/*body::after {*/
+.wallpaper1::after {
+  background: url("https://www.amdocs.com/sites/default/files/2017-02/man-on-rock-home.jpg");
+}
+
+.wallpaper2::after {
+  background: url("https://www.amdocs.com/sites/default/files/2017-02/people-in-public-library-med.jpg");
+}
+
+.wallpaper::after {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  filter: alpha(opacity=80);
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?5wcy1r');
+  src:  url('fonts/icomoon.eot?5wcy1r#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?5wcy1r') format('truetype'),
+    url('fonts/icomoon.woff?5wcy1r') format('woff'),
+    url('fonts/icomoon.svg?5wcy1r#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menuPink:before {
+  content: "\e900";
+  color: #ff279c;
+}
